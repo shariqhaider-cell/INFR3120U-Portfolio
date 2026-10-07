@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"> <!--This tells the browser that the page is in english-->
+<head>
+    <meta charset="UTF-8"> <!--Sets the character encoding-->
+    <title>About Me</title>
+
+    <!--This links the page to the CSS files-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 601px) and (max-width: 1024px)">
+    <link rel="stylesheet" href="laptop.css" media="screen and (min-width: 1025px)">
+
+</head>
+
+<body>
+    <header>
+    <h1>About Me</h1>
+     
+    <!--This is navigating between these four portfolio pages-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+        
+    </header>
+
+    <main>
+    
+        <article>
+            <h2>About Me</h2>
+
+    <p> <!--This is adding paragraphs to page-->
+        I am majoring in Networking and IT Security at Ontario Tech University.
+        I am interested in IT support, networking and learning more about new technology.
+    </p>
+
+    <!--This is adding a photo with alternative text and sets its width-->
+    <img src="image234.jpg" alt="My photo" width="250">
+
+    <!--This adds a video about me with controls and a poster image -->
+    <video width="250" height="240" controls poster="image234.jpg">
+        <source src="about-me.mp4" type="video/mp4">
+    </video>
+
+    </article>
+</main>
+
+<!--This adds a footer containing contact information and copyright-->
+<footer>
+    <p>Email: syedshariq.haider@ontariotechu.net</p>
+     <p>&copy; 2026 by Shariq Haider</p>
+</footer>
+
+</body>
+</html>
