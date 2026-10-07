@@ -1,0 +1,14 @@
+ /* This will set the page for the font size */
+ body {
+    font-size: 14px;
+  }
+
+   /* This will add space inside the navigation */
+  nav {
+    padding: 10px;
+  }
+
+   /* This will make the footer height adjust on its own */
+  footer {
+    height: auto;
+  }

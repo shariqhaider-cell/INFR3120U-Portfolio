@@ -1,0 +1,9 @@
+/* This will set the page for the font size*/
+body { 
+    font-size: 16px;
+  }
+
+  /* This will add space inside the navigation */
+  nav {
+    padding: 12px;
+  }
