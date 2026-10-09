@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* CSS */
+
+/* This will set the background and text for the page */
+body {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+/* This will set the margin for the headings and paragraphs */
+h1, h2, h3, p {
+  margin-left: 5px;
+
+}
+
+/* This will set the color for the headings */
+h2, h3 {
+  color: white;
+ 
+}
+
+/* This will set the main heading style */
+h1 {
+  background: linear-gradient(darkblue, lightblue);
+  color: white;
+  padding:20px;
+  text-align: center;
+  margin: 0px;
+}
+
+/* This will set up the navigation */
+nav {
+  background-color: darkblue;
+  padding: 15px;
+}
+
+/* This will set up color and space for the navigation links */
+nav a {
+  margin-right: 15px;
+  color: white;
+}
+
+/* This will set up footer style */
+footer {
+  background-color: lightblue;
+  color:black;
+  padding:10px;
+  clear: both;
+}
+
+/* This will give space for the main section */
+main {
+  min-height: 429px;
+}
+
+/* This will help the images and videos fit smaller screens */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* This will help put the image or video on the opposite sides */
+img {
+  float: left;
+  margin-left: 25%;
+  margin-right: 40px;
+}
+video {
+  float: right;
+  margin-right: 25%;
+  margin-left: 40px;
+}
+
+/* This will give space and style the contact form */
+form {
+  margin-left: 5px;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+/* This will make the box wider */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  width: 350px;
+  padding: 8px;
+}
+
+/* This will make the size of the comment box */
+form textarea {
+  width: 450px;
+  height: 150px;
+  padding: 8px;
+}
+
+/* This give space for the sumbit button */
+form input[type="submit"]{
+  margin-top: 10px;
+  padding: 15px;
+  width: 160px;
+  font-size: 18px;
+}
+
+/* This will place the contact form on the left */
+.contact-form {
+  float: left;
+  width: 55%;
+}
+
+/* This will place the question section on the right */
+.contact-information {
+  float: right;
+  width: 30%;
+  margin-right: 10%;
+  margin-top: 160px;
+  text-align: center;
+}
+
+/* This will make the font little larger */
+.contact-information h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
